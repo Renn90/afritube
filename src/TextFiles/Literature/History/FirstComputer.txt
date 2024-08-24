@@ -1,0 +1,98 @@
+**The First Computers in East Africa –and what became of them
+
+One of them ended up at the bottom of the ocean, because of a snake, a gun, and bureaucracy. Another ended up in China, somehow.
+
+© Jitze Couperus
+
+In 1889, a man called Herman Hollerith was issued a patent for a machine he had invented that used punched cards to do basic accounting jobs. Instead of typing the same facts and numbers over and over again to produce documents, the information could be recorded as holes in a punched card of about 18 cm long by 8 cm high.
+
+There were 80 columns of 12 rows in such a card where holes could be punched to represent letters or numbers. The holes were punched in the cards by a machine sort of like a typewriter with a keyboard.
+
+Wherever there were “big” accounting jobs to do, these cards were created and then processed in Electrical Accounting Equipment (usually called EAM machines). These were electro-mechanical – they used no “electronics” such as valves or transistors – the latter had not even been invented yet.
+
+EAM machines were big heavy machines with electric motors (usually around 3 or 4 horsepower) turning lots of gears and wheels and clutches which could engage or disengage wheels from rotating shafts depending on the holes that were sensed in a card.
+
+These machines could read cards, add up (or subtract)  numbers and print the results on paper – but they could not multiply or divide or make any kind of change in the way they worked to do a given job – there was no “program” – the instructions were wired into a removable panel that was plugged into the machine.
+
+So for example, the local electrical company (East African Power & Light) had some thousands of cards containing the names and addresses of their customers, each card included the  customer number in addition to the name and address. Then each month, meter readers would visit the electricity meters and make a note of how much power had been used by a given customer – this was punched into another card together with the customer number.
+
+The two sets of cards (addresses and electricity usage) were then sorted together into one extended “deck of cards” and this was passed through a tabulator (the main kind of EAM machine) that then printed monthly statements and bills to be mailed to customers. There were different types of EAM machines – sorters (to sort the cards) reproducers (to copy some portion of information from one set of cards into another) collators (to interleave two sets of cards by (for example) matching them on the basis of customer number, and so forth.
+
+Two companies grew out of the original Hollerith invention. In 1902, a British business called The Tabulator Limited obtained the rights to sell Hollerith equipment in the United Kingdom. It was later renamed the British Tabulating Machine Company Limited and would, in 1920, begin manufacturing its own machines. In 1951, the now globally expanding company ventured into stored-program electronic digital computers with a device called HEC2M. The HEC stood for ‘Hollerith Electronic Computer.’ 
+
+In the mid-1950s, the BTM company set up shop in Nairobi as the BTM (EA) Ltd. The original office was on the floor above the Boero car dealership showroom, directly opposite the Donovan Maule Theatre. Some of the first companies to place orders for these bulky computers were the East African Railways and  Harbours (EAR&H) and East African Power and Light (EAP&L).
+
+At Railways, the computer’s main job was payroll accounting and printing payslips for thousands of employees, and EAP&L wanted a system for electricity billing. 
+
+There were other smaller organizations that used BTM equipment – the Post Office Savings Bank, East African Airways and the Kenya Police. In addition the BTM (EA) maintained a set of equipment in what they called a “Service Bureau” where smaller organizations (who could not justify the expense of having their own equipment) would bring their punched cards for processing for a monthly fee.
+
+Until that time though, anything that involved multiplication or division was a problem.
+
+There was a piece of EAM equipment called a “multiplier” that used valves (predecessor to transistors, designed for use in radios and TVs). This machine could read two numbers out of a punched card, and multiply (or divide) them and punch the result back into different columns in the same card.
+
+The problem was that it was not very reliable (valves kept burning out – when you have some hundreds of valves, the chances of one “going” while you are processing some thousand of electricity billing cards is pretty likely).
+
+With electricity billing, such simple processing would not be sufficient. EAP&L would have liked to use a “tiered” billing scheme, with a relatively cheap rate of electricity for the first 100 units used, and more expensive for the next 100 units, and so on. But the essentially punched card equipment of that time did not permit anything of this sophistication to is achieved.
+
+Then in the late 1950’s two things happened that brings us to this story. The first commercially available electronic computers came on the market in the UK and USA, and the BTM company merged with a rival called Power-Samas and changed its name to International Computers & Tabulators or ICT. And in Nairobi, the company changed its name to ICT (EA) Ltd. Just before this merger, the company in Britain had announced the availability of its first computer for sale – the HEC 1200 series and one was ordered for use by East African Railways. 
+
+The console of the 1202 at EAR&H
+The ICT 1202 was programmed to compute employee payroll – allowing salaries to be more graduated, taking into account different hourly rates for overtime, various allowances (such as a bicycle allowance for employees who needed to use a bicycle on the job) and bonuses for station masters who kept their stations looking extra smart and tidy with whitewashed stones and flowers, and other similar benefits.
+
+There were a few practical problems with this machine. It used even more valves than the “multiplier” machine that it replaced – some thousands of them instead of hundreds. This meant the likelihood that some valve somewhere in the machine would fail at some time was much greater – thus the MTBF (Mean-Time Between Failure) of the machine was reduced considerably. At the beginning of the day’s shift, the engineers would do special “margin tests” on the machine (running it at slightly higher and lower voltages that it was designed for) in the hope of provoking failure in any “weak” valves that were on the point of failure, so they could be weeded out and replaced with fresh ones before the real work day was started.
+
+A related problem was that “starting” the machine in the morning required a huge surge in electrical power. Valves (like ordinary light bulbs with filaments) require an initial surge to heat up the filament – much more than is required to sustain it once it is already “lit”. This meant that the machine could not be switched on in the morning until we got the OK from the bakery up the road confirming that they had switched off their ovens.
+
+They baked bread during the night, and the local power distribution station could not take the load of having the ovens going at the same time as the HEC 1202 was switched on – it would blow up the transformer at the power station just up the road.
+
+Another problem was the heat generated by all the valves in the machine when it was running. To overcome this, the machine was housed in a old wooden building close to the main railways station that was built on short poles about a foot off the ground, (like many older buildings in Nairobi).  Large vents were cut into the floor to let fresh outside air into the room.
+
+The main cabinets of the computer were fitted with metal hoods containing extractor fans which constantly sucked fresh air into the machine through the holes in the floor and vented it through ducts leading outside. But this architecture led to the eventual demise of this machine.
+
+We had a part-time employee, Kuldeep Singh Sunde, who worked  as Policeman but earned extra money part-time by coming in early every morning around 5 a.m., checking with the bakery to make sure their ovens were off, and then starting the machine – something that took about half-an-hour because different units had to be switched on in sequence to avoid a single big surge.
+
+After that, Kuldeep Singh would go on his way to his normal policeman’ job.
+
+Kenya Police patrolling Nairobi at the time did not usually carry weapons, but just at that time there had been some shootings in an area of Nairobi populated primarily by Somalis. This was where Kuldeep Singh would be on duty that day, so he happened to be carrying a pistol in a holster on his belt in case of trouble. 
+
+The machine had been switched off during the night – as had the air extractor fans – so the inside of the machine was still relatively warm compared to the cool outside air of the early morning. Some time that night, a snake entered the building through the crawl space and into the main body of the machine. It coiled itself on top of the sense amplifiers for the drum memory-the nice warm spot.
+
+When Kuldeep reported for duty at his usual hour, he went on with his business, unknowing of the danger waiting for him. When he opened the cabinet door to switch on that particular unit, he was greeted by a puff adder, startled and poised to strike.
+
+The snake struck at Kuldeep but he moved just in time. His reflex move made him stumble and fall backward. The startled snake followed onto the floor. Kuldeep drew his weapon, shot at the snake and missed it. What he didn’t miss though was the drum memory of the computer, effectively rendering the whole machine useless.
+
+The snake slithered into the darkness, leaving Kuldeep startled but unhurt. The ICT 1202 though, the first proper computer in East Africa and what had been to that point the Pride of the East African Railways, was now junk. To be operational again, a new drum would have to be ordered from the UK. It would probably have to be specifically manufactured first before it could be shipped, a process that would take months at the very least.
+
+Luckily, a replacement for the 1202 had already been planned, and the new machine, an ICT 1500 was already on its way to Mombasa. This was a second generation machine with only a few valves – all of the computer’s logic circuits were built with the new transistor technology, and the machine would have 6 magnetic tape drives in addition to the card reader and line printer – representing a revolutionary advance in the technology.
+
+But the story of the HEC 1202 does not end here. There was one final twist.
+
+The machine was technically the property of ICT (EA) who leased it on a monthly basis to EAR&H. When it was first imported into the country, no import duty had been paid on it because it was going to be used solely by an arm of the government. If import duty were to be paid, it would effectively be a case of the government levying an import fee on itself.
+
+But now that the machine was no longer being leased by an arm of the government and was now being delivered to its owner ICT(EA), a private commercial company, the import duty on the machine would have to be paid. This promised to be a considerable sum of money – for what was now essentially a pile of junk. The only way out of this problem was to export the machine out of the country. To export a pile of junk weighing some tons to the UK was also not a practical way to spend money either.
+
+But nobody said it actually had to return to the UK-it merely had to leave East African territory. The answer was simple. The computer was loaded onto a goods wagon destined by rail to Mombasa, where it was transferred onto the deck of a barge in the harbour. The barge was towed out beyond the three-mile limit by a tug boat, and in the presence of official witnesses from the Department of Customs & Excise, it was ceremoniously tipped over the side of the barge and into the Indian Ocean.
+
+It’s a pity that East Africa’s first real computer was not preserved in a museum, but that’s what happened to it – and that is presumably where she rests to this day – about five miles East of Kilindini under a few hundred feet of salt water.
+
+In the transitional stages of the independence period, three newer generation computers, all ICT 1500 models, were ordered for East Africa. Although they carried the name and model number associated with a British manufacturer, they were in fact designed and built in the United States under the name RCA 301. The British were scrambling to complete their own 2nd generation design but had to scrap their own plans and start over again because of the sudden cost-effectiveness of the transistor – rendering any valve-based computer obsolete.
+
+So to buy time, ICT in the UK contracted with RCA to re-sell their model 301 computer as the “re-badged” ICT 1500.
+
+Two of the three machines destined for East Africa went to Kenya. One went to East African Railways and Harbours in Nairobi to replace the late lamented HEC 1202, and the other primarily for the use of East African Power and Light, also in Nairobi.  However the latter was only leased by EAP&L for 12 hours a day, during the night hours it was available for use as a Service Bureau machine by ICT (EA) to do smaller jobs for other organizations who paid for its use by the hour.
+
+The third of these computers that were sent to East Africa went to Dar es Salaam, where it was leased by the  East African Department of Customs and Excise to do their accounting.
+
+Besides the step of going from valve-based to transistor-based, these machines represented a huge step forward in that for the first time, they had a method of recording/storing data that was not limited to bulky and slow punched cards. Besides the card reader and printer, they had magnetic tapes capable of holding the equivalent of many tens of thousands of punched cards, and so were also much faster.
+
+Punched cards could typically be read and processed between 100/minute (on the old HEC 1202) and 600/minute on the new ICT 1500, but  the magnetic tapes could read and write 10,000 characters/second, or about 80 times faster than the original HEC 1202. Likewise, whereas the printer on the HEC 1202 could print about 100 lines/minute, the printer on the ICT 1500 (built by a company called Anelex) could do 1000 lines/minute.
+
+Uganda had also had a conventional (electro-mechanical) punched card site at the Uganda Electricity Board in Kampala. This too was upgraded to a more capable transistorized machine, but not really a “computer” in terms of its programmable capabilities. It was an ICT 1004, and as the computers, it also was a “re-badged” American machine (UNIVAC 1004) which ICT sold under their own brand name.
+
+It had no magnetic tape storage – it was limited to reading and punching cards and printing on paper. Also, it was “programmed” via a plug-board with wires like a tabulator rather than via some “programming language”. Its main benefits were increased speed and reliability over the old electro-mechanical machines, but not really a change in the underlying way that data was processed.
+
+The two computers in Nairobi were still going strong when I eventually left Nairobi around 1965. I later heard that the ICT 1004 continued to function in Kampala even after independence. It eventually broke down and nobody could be found to repair it.  But the machine in Dar es Salaam disappeared during the 1964 Zanzibar Revolution.
+
+At some point during the upheaval, somebody with knowledge of how to dismantle the heavy and complicated machine removed it from its known location.
+
+British intelligence later reported that the machine had somehow made its way to China where it had been carefully disassembled and analyzed and used as a learning tool for their computer industry.

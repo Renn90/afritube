@@ -1,0 +1,124 @@
+// import React, { useState, useEffect, useRef } from "react";
+// import { IoIosArrowDroprightCircle } from "react-icons/io";
+
+// const BookUs = () => {
+//   const widgetRef = useRef(null);
+//   const [calendlyInitialized, setCalendlyInitialized] = useState(false);
+
+//   useEffect(() => {
+//     if (!calendlyInitialized) {
+//       const loadCalendlyScript = () => {
+//         const existingScript = document.getElementById("calendly-script");
+
+//         if (!existingScript) {
+//           const script = document.createElement("script");
+//           script.id = "calendly-script";
+//           script.src = "https://assets.calendly.com/assets/external/widget.js";
+//           script.async = true;
+//           script.onload = () => {
+//             if (widgetRef.current) {
+//               Calendly.initInlineWidget({
+//                 url: "https://calendly.com/talentcounsel/creative-services-talentcounsel",
+//                 parentElement: widgetRef.current,
+//                 prefill: {},
+//                 utm: {},
+//               });
+//               setCalendlyInitialized(true);
+//             }
+//           };
+//           document.body.appendChild(script);
+//         } else {
+//           if (widgetRef.current) {
+//             Calendly.initInlineWidget({
+//               url: "https://calendly.com/talentcounsel/creative-services-talentcounsel",
+//               parentElement: widgetRef.current,
+//               prefill: {},
+//               utm: {},
+//             });
+//             setCalendlyInitialized(true);
+//           }
+//         }
+//       };
+
+//       loadCalendlyScript();
+//     }
+
+//     return () => {
+//       const script = document.getElementById("calendly-script");
+//       if (script) {
+//         script.remove();
+//       }
+//     };
+//   }, [calendlyInitialized]);
+
+//   console.log(widgetRef);
+
+//   return (
+//     <div className="bg-grey my-8">
+//       <div className="container flex flex-col justify-between items-start px-3 py-8 md:flex-row md:items-center">
+//         <div className="text-white my-7 md:my-0">
+//           <h1 className="text-4xl font-bold md:text-5xl">Book a meeting</h1>
+//           <button className="relative py-3 outline-none border-none min-w-[240px] my-1 px-4 bg-white rounded-full text-3xl text-black font-bold hover:opacity-55 text-start pl-5 flex jus items-center">
+//             Book Now
+//             <IoIosArrowDroprightCircle className="absolute text-grey right-[-12px] text-8xl rotate-90 md:rotate-0 md:transition-transform md:duration-500" />
+//           </button>
+//         </div>
+//         <div className="relative z-[99] rounded-[13px] bg-white w-[100%] h-[400px] flex items-center justify-center md:w-1/2">
+//             <div
+//               ref={widgetRef}
+//               className="calendly-inline-widget px-3 w-[100%] h-[95%]"
+//             />
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default BookUs;
+
+/////////////////////////////////////////////////////////
+
+
+
+// import React, {useEffect, useState} from 'react';
+
+// const Playlist = () => {
+//     const [loaded, setLoaded] = useState(false);
+
+//     useEffect(() => {
+//         const script = document.createElement('script');
+//         script.src = 'https://open.spotify.com/embed/iframe-api/v1';
+//         script.async = true;
+//         document.body.appendChild(script);
+    
+//         script.onload = () => {
+//           window.onSpotifyIframeApiReady = (IFrameAPI) => {
+//             const element = document.getElementById('embed-iframe');
+//             const options = {
+//               uri: 'spotify:playlist:0AstoMDxDxkGiSaqauc5pZ?si=7f594ec58eb841'
+//             };
+//             const callback = (EmbedController) => {};
+//             IFrameAPI.createController(element, options, callback);
+//           };
+//           setLoaded(true)
+//         };
+    
+//         return () => {
+//           // Cleanup code
+//           delete window.onSpotifyIframeApiReady;
+//           document.body.removeChild(script);
+//         };
+//       }, []);
+  
+
+//   return (
+//     <div className='container text-white px-3'>
+//       <h2 className='text-2xl font-medium text-center my-4'>Here are 10 sync tracks to download to check out for free.</h2>
+//       <div className="h-[355px] border-[1px] border-grey rounded-xl">
+//        {loaded && <div id="embed-iframe"></div>} 
+//       </div>
+//     </div>
+//   )
+// }
+
+// export default Playlist
